@@ -17,6 +17,6 @@ module.exports = function awaitGlobal(key, wait) {
       }
     };
     timer = setInterval(loop, wait || 300);
-    waitLoop();
+    loop();
   });
 };

@@ -3,8 +3,10 @@
   "version": "1.0.2",
   "description": "Promised wait for globals",
   "main": "index.js",
-  "repository": "git@github.com:mohitmayank/await-global.git",
   "author": "Mohit Jain <mayank.mohit@gmail.com>",
   "license": "MIT",
-  "private": false
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohitmayank/await-global.git"
+  }
 }
